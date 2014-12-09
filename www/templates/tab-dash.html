@@ -1,0 +1,14 @@
+<ion-view title="Electricity Bill Calculation">
+  <ion-content class="padding">
+  	<div class="col">
+  		<label class="item item-input item-stacked-label">
+		    <span class="input-label">Enter Billed Units</span>
+		    <input type="text" placeholder="" ng-model="bill.unitNumber" class="unit-class">
+		</label>
+	    <button class="button button-full button-royal" ng-click="calcBill(bill.unitNumber)">
+		  Calculate
+		</button>
+		<span ng-if="bill.amount" class="bill-amount">Rs. {{bill.amount}}</span>
+	</div>
+  </ion-content>
+</ion-view>

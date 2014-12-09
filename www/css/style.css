@@ -1,0 +1,19 @@
+/* Empty. Add your own CSS if you like */
+input .unit-class {
+	color: green;
+}
+.border-3side {
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+}
+.right-border{
+	border-right: 1px solid;
+}
+.bottom-border {
+	border-top: 1px solid;
+}
+.bill-amount {
+	font-size: 18px;
+
+}
